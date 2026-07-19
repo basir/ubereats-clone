@@ -1,0 +1,11 @@
+
+# dependencies
+node_modules/
+
+ubereats-clone-final-firebase-adminsdk-fbsvc-347b0a7713.json
+
+# local env files
+.env*.local
+.env
+firebase-debug.log
+functions/.env.ubereats-clone-final

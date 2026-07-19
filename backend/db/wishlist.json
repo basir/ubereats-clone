@@ -1,0 +1,12 @@
+[
+  {
+    "id": "wl1",
+    "userId": "1",
+    "restaurantIds": ["r1", "r3", "r5"]
+  },
+  {
+    "id": "wl2",
+    "userId": "2",
+    "restaurantIds": ["r2", "r4"]
+  }
+]

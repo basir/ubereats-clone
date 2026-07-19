@@ -1,0 +1,488 @@
+[
+  {
+    "id": "ord1",
+    "orderNumber": "UE-20250115-001",
+    "userId": "1",
+    "restaurantId": "r1",
+    "restaurantName": "Pizza Palace",
+    "restaurantLocation": {
+      "latitude": 47.6097,
+      "longitude": -122.3413
+    },
+    "items": [
+      {
+        "menuItemId": "m1",
+        "name": "Margherita Pizza",
+        "price": 12.99,
+        "quantity": 2
+      }
+    ],
+    "deliveryAddress": {
+      "street": "123 Main St",
+      "city": "Seattle",
+      "latitude": 47.6205,
+      "longitude": -122.3493
+    },
+    "subtotal": 25.98,
+    "deliveryFee": 2.99,
+    "serviceFee": 1.3,
+    "driverTip": 3.0,
+    "totalAmount": 33.27,
+    "status": "delivered",
+    "statusHistory": [
+      { "status": "pending", "date": "2025-01-15T10:00:00.000Z" },
+      { "status": "preparing", "date": "2025-01-15T10:05:00.000Z" },
+      { "status": "out_for_delivery", "date": "2025-01-15T10:20:00.000Z" },
+      { "status": "delivered", "date": "2025-01-15T10:45:00.000Z" }
+    ],
+    "paymentStatus": "paid",
+    "createdAt": "2025-01-15T10:00:00.000Z"
+  },
+  {
+    "id": "ord2",
+    "orderNumber": "UE-20250210-002",
+    "userId": "1",
+    "restaurantId": "r2",
+    "restaurantName": "Burger Barn",
+    "restaurantLocation": {
+      "latitude": 47.6153,
+      "longitude": -122.3447
+    },
+    "items": [
+      {
+        "menuItemId": "m6",
+        "name": "Classic Smash Burger",
+        "price": 10.99,
+        "quantity": 1
+      },
+      {
+        "menuItemId": "m8",
+        "name": "Crispy Fries",
+        "price": 3.99,
+        "quantity": 1
+      }
+    ],
+    "deliveryAddress": {
+      "street": "123 Main St",
+      "city": "Seattle",
+      "latitude": 47.6205,
+      "longitude": -122.3493
+    },
+    "subtotal": 14.98,
+    "deliveryFee": 1.99,
+    "serviceFee": 0.75,
+    "driverTip": 2.0,
+    "totalAmount": 19.72,
+    "status": "delivered",
+    "statusHistory": [
+      { "status": "pending", "date": "2025-02-10T12:00:00.000Z" },
+      { "status": "preparing", "date": "2025-02-10T12:05:00.000Z" },
+      { "status": "out_for_delivery", "date": "2025-02-10T12:18:00.000Z" },
+      { "status": "delivered", "date": "2025-02-10T12:38:00.000Z" }
+    ],
+    "paymentStatus": "paid",
+    "createdAt": "2025-02-10T12:00:00.000Z"
+  },
+  {
+    "id": "ord3",
+    "orderNumber": "UE-20250305-003",
+    "userId": "1",
+    "restaurantId": "r3",
+    "restaurantName": "Sushi Spot",
+    "restaurantLocation": {
+      "latitude": 47.6189,
+      "longitude": -122.3501
+    },
+    "items": [
+      {
+        "menuItemId": "m11",
+        "name": "Dragon Roll (8 pcs)",
+        "price": 15.99,
+        "quantity": 1
+      },
+      {
+        "menuItemId": "m12",
+        "name": "Miso Soup",
+        "price": 2.99,
+        "quantity": 2
+      }
+    ],
+    "deliveryAddress": {
+      "street": "456 Oak Ave",
+      "city": "Portland",
+      "latitude": 45.5231,
+      "longitude": -122.6765
+    },
+    "subtotal": 21.97,
+    "deliveryFee": 3.99,
+    "serviceFee": 1.1,
+    "driverTip": 3.0,
+    "totalAmount": 30.06,
+    "status": "delivered",
+    "statusHistory": [
+      { "status": "pending", "date": "2025-03-05T18:00:00.000Z" },
+      { "status": "preparing", "date": "2025-03-05T18:08:00.000Z" },
+      { "status": "ready_for_pickup", "date": "2025-03-05T18:30:00.000Z" },
+      { "status": "out_for_delivery", "date": "2025-03-05T18:35:00.000Z" },
+      { "status": "delivered", "date": "2025-03-05T19:05:00.000Z" }
+    ],
+    "paymentStatus": "paid",
+    "createdAt": "2025-03-05T18:00:00.000Z"
+  },
+  {
+    "id": "ord4",
+    "orderNumber": "UE-20250420-004",
+    "userId": "2",
+    "restaurantId": "r4",
+    "restaurantName": "Taco Town",
+    "restaurantLocation": {
+      "latitude": 47.6012,
+      "longitude": -122.3358
+    },
+    "items": [
+      {
+        "menuItemId": "m14",
+        "name": "Street Tacos (3 pcs)",
+        "price": 9.99,
+        "quantity": 2
+      },
+      {
+        "menuItemId": "m16",
+        "name": "Chips & Salsa",
+        "price": 3.49,
+        "quantity": 1
+      }
+    ],
+    "deliveryAddress": {
+      "street": "789 Pine Rd",
+      "city": "Seattle",
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    },
+    "subtotal": 23.47,
+    "deliveryFee": 2.49,
+    "serviceFee": 1.17,
+    "driverTip": 2.0,
+    "totalAmount": 29.13,
+    "status": "delivered",
+    "statusHistory": [
+      { "status": "pending", "date": "2025-04-20T19:00:00.000Z" },
+      { "status": "preparing", "date": "2025-04-20T19:06:00.000Z" },
+      { "status": "out_for_delivery", "date": "2025-04-20T19:25:00.000Z" },
+      { "status": "delivered", "date": "2025-04-20T19:48:00.000Z" }
+    ],
+    "paymentStatus": "paid",
+    "createdAt": "2025-04-20T19:00:00.000Z"
+  },
+  {
+    "id": "ord5",
+    "orderNumber": "UE-20250601-005",
+    "userId": "1",
+    "restaurantId": "r5",
+    "restaurantName": "Sweet Treats",
+    "restaurantLocation": {
+      "latitude": 47.6231,
+      "longitude": -122.3289
+    },
+    "items": [
+      {
+        "menuItemId": "m18",
+        "name": "Nutella Crepe",
+        "price": 8.49,
+        "quantity": 1
+      },
+      {
+        "menuItemId": "m20",
+        "name": "Bubble Tea",
+        "price": 5.99,
+        "quantity": 2
+      }
+    ],
+    "deliveryAddress": {
+      "street": "123 Main St",
+      "city": "Seattle",
+      "latitude": 47.6205,
+      "longitude": -122.3493
+    },
+    "subtotal": 20.47,
+    "deliveryFee": 1.49,
+    "serviceFee": 1.02,
+    "driverTip": 2.0,
+    "totalAmount": 24.98,
+    "status": "delivered",
+    "statusHistory": [
+      { "status": "pending", "date": "2025-06-01T15:00:00.000Z" },
+      { "status": "preparing", "date": "2025-06-01T15:04:00.000Z" },
+      { "status": "out_for_delivery", "date": "2025-06-01T15:18:00.000Z" },
+      { "status": "delivered", "date": "2025-06-01T15:36:00.000Z" }
+    ],
+    "paymentStatus": "paid",
+    "createdAt": "2025-06-01T15:00:00.000Z"
+  },
+  {
+    "id": "ord6",
+    "orderNumber": "UE-20251005-006",
+    "userId": "1",
+    "restaurantId": "r1",
+    "restaurantName": "Pizza Palace",
+    "restaurantLocation": {
+      "latitude": 47.6097,
+      "longitude": -122.3413
+    },
+    "items": [
+      {
+        "menuItemId": "m2",
+        "name": "Pepperoni Pizza",
+        "price": 14.99,
+        "quantity": 1
+      },
+      {
+        "menuItemId": "m3",
+        "name": "Garlic Bread",
+        "price": 4.99,
+        "quantity": 1
+      }
+    ],
+    "deliveryAddress": {
+      "street": "456 Oak Ave",
+      "city": "Portland",
+      "latitude": 45.5231,
+      "longitude": -122.6765
+    },
+    "subtotal": 19.98,
+    "deliveryFee": 2.99,
+    "serviceFee": 1.0,
+    "driverTip": 2.0,
+    "totalAmount": 25.97,
+    "status": "shipped",
+    "statusHistory": [
+      { "status": "pending", "date": "2025-10-05T17:00:00.000Z" },
+      { "status": "preparing", "date": "2025-10-05T17:07:00.000Z" },
+      { "status": "out_for_delivery", "date": "2025-10-05T17:25:00.000Z" }
+    ],
+    "paymentStatus": "paid",
+    "createdAt": "2025-10-05T17:00:00.000Z"
+  },
+  {
+    "id": "ord7",
+    "orderNumber": "UE-20251102-007",
+    "userId": "2",
+    "restaurantId": "r2",
+    "restaurantName": "Burger Barn",
+    "restaurantLocation": {
+      "latitude": 47.6153,
+      "longitude": -122.3447
+    },
+    "items": [
+      {
+        "menuItemId": "m7",
+        "name": "BBQ Bacon Burger",
+        "price": 13.49,
+        "quantity": 1
+      },
+      {
+        "menuItemId": "m9",
+        "name": "Chocolate Milkshake",
+        "price": 5.49,
+        "quantity": 1
+      }
+    ],
+    "deliveryAddress": {
+      "street": "789 Pine Rd",
+      "city": "Seattle",
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    },
+    "subtotal": 18.98,
+    "deliveryFee": 1.99,
+    "serviceFee": 0.95,
+    "driverTip": 2.0,
+    "totalAmount": 23.92,
+    "status": "processing",
+    "statusHistory": [
+      { "status": "pending", "date": "2025-11-02T11:00:00.000Z" },
+      { "status": "preparing", "date": "2025-11-02T11:06:00.000Z" }
+    ],
+    "paymentStatus": "paid",
+    "createdAt": "2025-11-02T11:00:00.000Z"
+  },
+  {
+    "id": "ord8",
+    "orderNumber": "UE-20251201-008",
+    "userId": "1",
+    "restaurantId": "r4",
+    "restaurantName": "Taco Town",
+    "restaurantLocation": {
+      "latitude": 47.6012,
+      "longitude": -122.3358
+    },
+    "items": [
+      {
+        "menuItemId": "m15",
+        "name": "Burrito Bowl",
+        "price": 11.49,
+        "quantity": 1
+      },
+      {
+        "menuItemId": "m17",
+        "name": "Horchata",
+        "price": 3.99,
+        "quantity": 1
+      }
+    ],
+    "deliveryAddress": {
+      "street": "123 Main St",
+      "city": "Seattle",
+      "latitude": 47.6205,
+      "longitude": -122.3493
+    },
+    "subtotal": 15.48,
+    "deliveryFee": 2.49,
+    "serviceFee": 0.77,
+    "driverTip": 2.0,
+    "totalAmount": 20.74,
+    "status": "ready_for_pickup",
+    "statusHistory": [
+      { "status": "pending", "date": "2025-12-01T20:00:00.000Z" },
+      { "status": "preparing", "date": "2025-12-01T20:05:00.000Z" },
+      { "status": "ready_for_pickup", "date": "2025-12-01T20:20:00.000Z" }
+    ],
+    "paymentStatus": "paid",
+    "createdAt": "2025-12-01T20:00:00.000Z"
+  },
+  {
+    "id": "ord9",
+    "orderNumber": "UE-20260701-009",
+    "userId": "2",
+    "driverUid": "3",
+    "restaurantId": "r1",
+    "restaurantName": "Pizza Palace",
+    "restaurantLocation": { "latitude": 47.6097, "longitude": -122.3413 },
+    "items": [
+      { "menuItemId": "m1", "name": "Margherita Pizza", "price": 12.99, "quantity": 1 },
+      { "menuItemId": "m3", "name": "Garlic Bread", "price": 4.99, "quantity": 1 }
+    ],
+    "deliveryAddress": {
+      "street": "789 Pine Rd",
+      "city": "Seattle",
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    },
+    "subtotal": 17.98,
+    "deliveryFee": 2.99,
+    "serviceFee": 0.90,
+    "driverTip": 4.00,
+    "totalAmount": 25.87,
+    "status": "out_for_delivery",
+    "statusHistory": [
+      { "status": "pending", "date": "2026-07-18T09:00:00.000Z" },
+      { "status": "preparing", "date": "2026-07-18T09:06:00.000Z" },
+      { "status": "ready_for_pickup", "date": "2026-07-18T09:22:00.000Z" },
+      { "status": "out_for_delivery", "date": "2026-07-18T09:30:00.000Z" }
+    ],
+    "paymentStatus": "paid",
+    "createdAt": "2026-07-18T09:00:00.000Z"
+  },
+  {
+    "id": "ord10",
+    "orderNumber": "UE-20260715-010",
+    "userId": "1",
+    "driverUid": "3",
+    "restaurantId": "r2",
+    "restaurantName": "Burger Barn",
+    "restaurantLocation": { "latitude": 47.6153, "longitude": -122.3447 },
+    "items": [
+      { "menuItemId": "m6", "name": "Classic Smash Burger", "price": 10.99, "quantity": 2 },
+      { "menuItemId": "m8", "name": "Crispy Fries", "price": 3.99, "quantity": 2 }
+    ],
+    "deliveryAddress": {
+      "street": "123 Main St",
+      "city": "Seattle",
+      "latitude": 47.6205,
+      "longitude": -122.3493
+    },
+    "subtotal": 29.96,
+    "deliveryFee": 1.99,
+    "serviceFee": 1.50,
+    "driverTip": 5.00,
+    "totalAmount": 38.45,
+    "status": "delivered",
+    "statusHistory": [
+      { "status": "pending", "date": "2026-07-15T13:00:00.000Z" },
+      { "status": "preparing", "date": "2026-07-15T13:05:00.000Z" },
+      { "status": "ready_for_pickup", "date": "2026-07-15T13:20:00.000Z" },
+      { "status": "out_for_delivery", "date": "2026-07-15T13:28:00.000Z" },
+      { "status": "delivered", "date": "2026-07-15T13:52:00.000Z" }
+    ],
+    "paymentStatus": "paid",
+    "createdAt": "2026-07-15T13:00:00.000Z"
+  },
+  {
+    "id": "ord11",
+    "orderNumber": "UE-20260714-011",
+    "userId": "2",
+    "driverUid": "3",
+    "restaurantId": "r3",
+    "restaurantName": "Sushi Spot",
+    "restaurantLocation": { "latitude": 47.6189, "longitude": -122.3501 },
+    "items": [
+      { "menuItemId": "m11", "name": "Dragon Roll (8 pcs)", "price": 15.99, "quantity": 1 },
+      { "menuItemId": "m12", "name": "Miso Soup", "price": 2.99, "quantity": 1 }
+    ],
+    "deliveryAddress": {
+      "street": "789 Pine Rd",
+      "city": "Seattle",
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    },
+    "subtotal": 18.98,
+    "deliveryFee": 3.99,
+    "serviceFee": 0.95,
+    "driverTip": 3.00,
+    "totalAmount": 26.92,
+    "status": "delivered",
+    "statusHistory": [
+      { "status": "pending", "date": "2026-07-14T18:00:00.000Z" },
+      { "status": "preparing", "date": "2026-07-14T18:07:00.000Z" },
+      { "status": "ready_for_pickup", "date": "2026-07-14T18:25:00.000Z" },
+      { "status": "out_for_delivery", "date": "2026-07-14T18:31:00.000Z" },
+      { "status": "delivered", "date": "2026-07-14T18:58:00.000Z" }
+    ],
+    "paymentStatus": "paid",
+    "createdAt": "2026-07-14T18:00:00.000Z"
+  },
+  {
+    "id": "ord12",
+    "orderNumber": "UE-20260712-012",
+    "userId": "1",
+    "driverUid": "3",
+    "restaurantId": "r5",
+    "restaurantName": "Sweet Treats",
+    "restaurantLocation": { "latitude": 47.6231, "longitude": -122.3289 },
+    "items": [
+      { "menuItemId": "m18", "name": "Nutella Crepe", "price": 8.49, "quantity": 2 },
+      { "menuItemId": "m20", "name": "Bubble Tea", "price": 5.99, "quantity": 1 }
+    ],
+    "deliveryAddress": {
+      "street": "123 Main St",
+      "city": "Seattle",
+      "latitude": 47.6205,
+      "longitude": -122.3493
+    },
+    "subtotal": 22.97,
+    "deliveryFee": 1.49,
+    "serviceFee": 1.15,
+    "driverTip": 2.50,
+    "totalAmount": 28.11,
+    "status": "delivered",
+    "statusHistory": [
+      { "status": "pending", "date": "2026-07-12T14:00:00.000Z" },
+      { "status": "preparing", "date": "2026-07-12T14:04:00.000Z" },
+      { "status": "ready_for_pickup", "date": "2026-07-12T14:18:00.000Z" },
+      { "status": "out_for_delivery", "date": "2026-07-12T14:24:00.000Z" },
+      { "status": "delivered", "date": "2026-07-12T14:45:00.000Z" }
+    ],
+    "paymentStatus": "paid",
+    "createdAt": "2026-07-12T14:00:00.000Z"
+  }
+]

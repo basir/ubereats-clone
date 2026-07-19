@@ -1,0 +1,54 @@
+rules_version = '2'; // Important to specify the rules version
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Publicly readable collections:
+
+    // Anyone can read documents in the 'products' collection.
+    match /products/{productId} {
+      allow read;
+    }
+
+    // Anyone can read reviews. Authenticated users can create one review per order.
+    match /reviews/{reviewId} {
+      allow read;
+      allow create: if request.auth != null
+        && request.resource.data.userId == request.auth.uid
+        && request.resource.data.keys().hasAll(['restaurantId', 'orderId', 'userId', 'userName', 'rating', 'comment'])
+        && request.resource.data.rating is int
+        && request.resource.data.rating >= 1
+        && request.resource.data.rating <= 5;
+    }
+
+    // Anyone can read documents in the 'categories' collection.
+    match /categories/{categoryId} {
+      allow read;
+    }
+
+    // Anyone can read documents in the 'banners' collection.
+    match /banners/{bannerId} {
+      allow read;
+    }
+
+    // Anyone can read documents in the 'restaurants' collection.
+    match /restaurants/{restaurantId} {
+      allow read;
+    }
+
+    // Anyone can read documents in the 'cuisineCategories' collection.
+    match /cuisineCategories/{categoryId} {
+      allow read;
+    }
+
+    // Anyone can read documents in the 'menuItems' collection.
+    match /menuItems/{menuItemId} {
+      allow read;
+    }
+
+    // This is your original catch-all rule for all *other* documents.
+    // It still requires authentication for read and write.
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}

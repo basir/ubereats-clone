@@ -1,0 +1,16 @@
+[
+  {
+    "id": "cart1",
+    "userId": "1",
+    "restaurantId": "",
+    "items": [],
+    "totalAmount": 0
+  },
+  {
+    "id": "cart2",
+    "userId": "2",
+    "restaurantId": "",
+    "items": [],
+    "totalAmount": 0
+  }
+]

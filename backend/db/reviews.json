@@ -1,0 +1,137 @@
+[
+  {
+    "id": "rev1",
+    "restaurantId": "r1",
+    "userId": "1",
+    "userName": "John Doe",
+    "rating": 5,
+    "comment": "Best pizza in Seattle! The Margherita is perfectly balanced.",
+    "createdAt": "2025-01-20T10:00:00.000Z"
+  },
+  {
+    "id": "rev2",
+    "restaurantId": "r1",
+    "userId": "2",
+    "userName": "Jane Doe",
+    "rating": 4,
+    "comment": "Great crust and fast delivery. Will definitely order again.",
+    "createdAt": "2025-02-05T14:30:00.000Z"
+  },
+  {
+    "id": "rev3",
+    "restaurantId": "r1",
+    "userId": "1",
+    "userName": "John Doe",
+    "rating": 5,
+    "comment": "Pepperoni pizza was loaded and arrived hot. Love it.",
+    "createdAt": "2025-03-12T18:00:00.000Z"
+  },
+  {
+    "id": "rev4",
+    "restaurantId": "r2",
+    "userId": "2",
+    "userName": "Jane Doe",
+    "rating": 5,
+    "comment": "The smash burger is incredible. Perfectly crispy edges.",
+    "createdAt": "2025-02-15T12:00:00.000Z"
+  },
+  {
+    "id": "rev5",
+    "restaurantId": "r2",
+    "userId": "1",
+    "userName": "John Doe",
+    "rating": 4,
+    "comment": "Solid burgers, fries were crispy and fresh. Good value.",
+    "createdAt": "2025-03-01T13:45:00.000Z"
+  },
+  {
+    "id": "rev6",
+    "restaurantId": "r2",
+    "userId": "2",
+    "userName": "Jane Doe",
+    "rating": 4,
+    "comment": "BBQ bacon burger hit the spot. Milkshake was thick and creamy.",
+    "createdAt": "2025-04-10T19:00:00.000Z"
+  },
+  {
+    "id": "rev7",
+    "restaurantId": "r3",
+    "userId": "1",
+    "userName": "John Doe",
+    "rating": 5,
+    "comment": "Freshest sushi I've had delivered. Dragon roll was outstanding.",
+    "createdAt": "2025-03-10T20:00:00.000Z"
+  },
+  {
+    "id": "rev8",
+    "restaurantId": "r3",
+    "userId": "2",
+    "userName": "Jane Doe",
+    "rating": 5,
+    "comment": "Salmon nigiri melted in my mouth. Packaging kept everything fresh.",
+    "createdAt": "2025-04-02T21:00:00.000Z"
+  },
+  {
+    "id": "rev9",
+    "restaurantId": "r3",
+    "userId": "1",
+    "userName": "John Doe",
+    "rating": 4,
+    "comment": "Great quality and generous portions. Miso soup was warm and comforting.",
+    "createdAt": "2025-05-08T19:30:00.000Z"
+  },
+  {
+    "id": "rev10",
+    "restaurantId": "r4",
+    "userId": "2",
+    "userName": "Jane Doe",
+    "rating": 5,
+    "comment": "Authentic street tacos! The carne asada is seasoned perfectly.",
+    "createdAt": "2025-04-25T18:00:00.000Z"
+  },
+  {
+    "id": "rev11",
+    "restaurantId": "r4",
+    "userId": "1",
+    "userName": "John Doe",
+    "rating": 4,
+    "comment": "Burrito bowl was filling and fresh. The horchata is a must.",
+    "createdAt": "2025-05-15T19:00:00.000Z"
+  },
+  {
+    "id": "rev12",
+    "restaurantId": "r4",
+    "userId": "2",
+    "userName": "Jane Doe",
+    "rating": 5,
+    "comment": "Fast delivery and the chips were still crunchy. Great experience!",
+    "createdAt": "2025-06-01T17:30:00.000Z"
+  },
+  {
+    "id": "rev13",
+    "restaurantId": "r5",
+    "userId": "1",
+    "userName": "John Doe",
+    "rating": 5,
+    "comment": "Nutella crepe was heavenly. Arrived perfectly wrapped and warm.",
+    "createdAt": "2025-06-05T15:00:00.000Z"
+  },
+  {
+    "id": "rev14",
+    "restaurantId": "r5",
+    "userId": "2",
+    "userName": "Jane Doe",
+    "rating": 5,
+    "comment": "Bubble tea with pudding is addictive. Waffle stack was fluffy and rich.",
+    "createdAt": "2025-07-01T16:00:00.000Z"
+  },
+  {
+    "id": "rev15",
+    "restaurantId": "r5",
+    "userId": "1",
+    "userName": "John Doe",
+    "rating": 4,
+    "comment": "Great desserts at a fair price. Will be ordering the crepe again for sure.",
+    "createdAt": "2025-07-10T14:00:00.000Z"
+  }
+]

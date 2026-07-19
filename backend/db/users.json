@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "email": "admin@example.com",
+    "password": "password123",
+    "name": "John Doe",
+    "phone": "1234567890",
+    "role": "Admin",
+    "addresses": [
+      {
+        "id": "addr1",
+        "street": "123 Main St",
+        "city": "Seattle",
+        "state": "WA",
+        "zipCode": "98109",
+        "country": "USA",
+        "latitude": 47.6205,
+        "longitude": -122.3493,
+        "isDefault": true
+      },
+      {
+        "id": "addr2",
+        "street": "456 Oak Ave",
+        "city": "Portland",
+        "state": "OR",
+        "zipCode": "97201",
+        "country": "USA",
+        "latitude": 45.5231,
+        "longitude": -122.6765,
+        "isDefault": false
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "email": "demo@example.com",
+    "password": "password123",
+    "name": "Jane Doe",
+    "phone": "1234567890",
+    "role": "Customer",
+    "addresses": [
+      {
+        "id": "addr3",
+        "street": "789 Pine Rd",
+        "city": "Seattle",
+        "state": "WA",
+        "zipCode": "98101",
+        "country": "USA",
+        "latitude": 47.6062,
+        "longitude": -122.3321,
+        "isDefault": true
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "email": "driver@example.com",
+    "password": "password123",
+    "name": "Alex Rivera",
+    "phone": "2065550199",
+    "role": "Driver",
+    "vehicle": "Toyota Camry — WA · DRV-4821",
+    "rating": 4.8,
+    "ratingCount": 142,
+    "isOnline": true,
+    "currentLocation": {
+      "latitude": 47.6145,
+      "longitude": -122.3382
+    },
+    "addresses": [
+      {
+        "id": "addr4",
+        "street": "321 Elm St",
+        "city": "Seattle",
+        "state": "WA",
+        "zipCode": "98103",
+        "country": "USA",
+        "latitude": 47.6503,
+        "longitude": -122.3493,
+        "isDefault": true
+      }
+    ],
+    "earnings": {
+      "today": 87.50,
+      "thisWeek": 412.75,
+      "thisMonth": 1643.20,
+      "allTime": 9821.60
+    }
+  }
+]

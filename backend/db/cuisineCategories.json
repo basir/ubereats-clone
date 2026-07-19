@@ -1,0 +1,45 @@
+[
+  {
+    "id": "cc1",
+    "name": "Pizza",
+    "image": "https://i.ibb.co/83gV8bk/c1.png",
+    "order": 1
+  },
+  {
+    "id": "cc2",
+    "name": "Burgers",
+    "image": "https://i.ibb.co/CsV5W1Fr/c2.png",
+    "order": 2
+  },
+  {
+    "id": "cc3",
+    "name": "Sushi",
+    "image": "https://i.ibb.co/F4m8PQtx/c3.png",
+    "order": 3
+  },
+  {
+    "id": "cc4",
+    "name": "Mexican",
+    "image": "https://i.ibb.co/0jcsBTGz/c4.png",
+    "order": 4
+  },
+  {
+    "id": "cc5",
+    "name": "Desserts",
+    "image": "https://i.ibb.co/zh19F0v4/c5.png",
+    "order": 5
+  },
+  {
+    "id": "cc6",
+    "name": "Asian",
+    "image": "https://i.ibb.co/hx7f75xn/c6.png",
+    "order": 6
+  },
+  {
+    "id": "cc7",
+    "name": "Healthy",
+    "image": "https://i.ibb.co/mVK46yLF/c7.png",
+    "order": 7
+  }
+]
+ 

@@ -1,0 +1,334 @@
+[
+  {
+    "id": "m1",
+    "restaurantId": "r1",
+    "name": "Margherita Pizza",
+    "price": 12.99,
+    "description": "Classic tomato sauce, fresh mozzarella, and basil on a hand-tossed crust.",
+    "image": "https://i.ibb.co/tMDw7TPJ/m1.jpg",
+    "category": "Mains",
+    "inStock": true,
+    "customizable": true,
+    "options": [
+      { "name": "Extra Cheese", "price": 1.5 },
+      { "name": "Gluten-Free Crust", "price": 2.0 }
+    ]
+  },
+  {
+    "id": "m2",
+    "restaurantId": "r1",
+    "name": "Pepperoni Pizza",
+    "price": 14.99,
+    "description": "Loaded with premium pepperoni and melted mozzarella on our signature sauce.",
+    "image": "https://i.ibb.co/DPVXVHMh/m2.jpg",
+    "category": "Mains",
+    "inStock": true,
+    "customizable": true,
+    "options": [
+      { "name": "Extra Pepperoni", "price": 2.0 },
+      { "name": "Stuffed Crust", "price": 2.5 }
+    ]
+  },
+  {
+    "id": "m3",
+    "restaurantId": "r1",
+    "name": "Garlic Bread",
+    "price": 4.99,
+    "description": "Toasted ciabatta with herb garlic butter.",
+    "image": "https://i.ibb.co/HTHNSdDk/m3.jpg",
+    "category": "Sides",
+    "inStock": true,
+    "customizable": false,
+    "options": []
+  },
+  {
+    "id": "m4",
+    "restaurantId": "r1",
+    "name": "Tiramisu",
+    "price": 6.99,
+    "description": "Classic Italian dessert with espresso-soaked ladyfingers and mascarpone cream.",
+    "image": "https://i.ibb.co/4ggcpNmt/m4.jpg",
+    "category": "Desserts",
+    "inStock": true,
+    "customizable": false,
+    "options": []
+  },
+  {
+    "id": "m5",
+    "restaurantId": "r1",
+    "name": "Sparkling Water",
+    "price": 2.49,
+    "description": "Chilled sparkling water, 500ml.",
+    "image": "https://i.ibb.co/HLqPdBKm/m5.jpg",
+    "category": "Drinks",
+    "inStock": true,
+    "customizable": false,
+    "options": []
+  },
+  {
+    "id": "m6",
+    "restaurantId": "r2",
+    "name": "Classic Smash Burger",
+    "price": 10.99,
+    "description": "Double smash patty, American cheese, pickles, onions, and house sauce.",
+    "image": "https://i.ibb.co/7tLQLRV2/m6.jpg",
+    "category": "Mains",
+    "inStock": true,
+    "customizable": true,
+    "options": [
+      { "name": "Add Bacon", "price": 1.5 },
+      { "name": "Add Egg", "price": 1.0 }
+    ]
+  },
+  {
+    "id": "m7",
+    "restaurantId": "r2",
+    "name": "BBQ Bacon Burger",
+    "price": 13.49,
+    "description": "Beef patty with crispy bacon, BBQ sauce, cheddar, and onion rings.",
+    "image": "https://i.ibb.co/n8MjyKR0/m7.jpg",
+    "category": "Mains",
+    "inStock": true,
+    "customizable": true,
+    "options": [
+      { "name": "Extra Bacon", "price": 1.5 },
+      { "name": "Double Patty", "price": 2.5 }
+    ]
+  },
+  {
+    "id": "m8",
+    "restaurantId": "r2",
+    "name": "Crispy Fries",
+    "price": 3.99,
+    "description": "Golden crispy fries seasoned with sea salt.",
+    "image": "https://i.ibb.co/JFdy2Bv6/m8.jpg",
+    "category": "Sides",
+    "inStock": true,
+    "customizable": true,
+    "options": [
+      { "name": "Loaded (cheese + bacon)", "price": 2.0 }
+    ]
+  },
+  {
+    "id": "m9",
+    "restaurantId": "r2",
+    "name": "Chocolate Milkshake",
+    "price": 5.49,
+    "description": "Thick and creamy chocolate milkshake made with real ice cream.",
+    "image": "https://i.ibb.co/wFkcL3Kn/m9.jpg",
+    "category": "Drinks",
+    "inStock": true,
+    "customizable": false,
+    "options": []
+  },
+  {
+    "id": "m10",
+    "restaurantId": "r3",
+    "name": "Salmon Nigiri (2 pcs)",
+    "price": 7.99,
+    "description": "Fresh Atlantic salmon over hand-pressed sushi rice.",
+    "image": "https://i.ibb.co/Fqk1yzwP/m10.jpg",
+    "category": "Mains",
+    "inStock": true,
+    "customizable": false,
+    "options": []
+  },
+  {
+    "id": "m11",
+    "restaurantId": "r3",
+    "name": "Dragon Roll (8 pcs)",
+    "price": 15.99,
+    "description": "Shrimp tempura inside, topped with avocado and spicy mayo.",
+    "image": "https://i.ibb.co/yvmXckT/m11.jpg",
+    "category": "Mains",
+    "inStock": true,
+    "customizable": true,
+    "options": [
+      { "name": "Extra Spicy", "price": 0.5 }
+    ]
+  },
+  {
+    "id": "m12",
+    "restaurantId": "r3",
+    "name": "Miso Soup",
+    "price": 2.99,
+    "description": "Traditional Japanese miso soup with tofu and wakame.",
+    "image": "https://i.ibb.co/q3CrWhyh/m12.jpg",
+    "category": "Sides",
+    "inStock": true,
+    "customizable": false,
+    "options": []
+  },
+  {
+    "id": "m13",
+    "restaurantId": "r3",
+    "name": "Matcha Ice Cream",
+    "price": 4.99,
+    "description": "Two scoops of premium matcha green tea ice cream.",
+    "image": "https://i.ibb.co/hv9jmMv/m13.jpg",
+    "category": "Desserts",
+    "inStock": true,
+    "customizable": false,
+    "options": []
+  },
+  {
+    "id": "m14",
+    "restaurantId": "r4",
+    "name": "Street Tacos (3 pcs)",
+    "price": 9.99,
+    "description": "Corn tortillas with carne asada, cilantro, onion, and salsa verde.",
+    "image": "https://i.ibb.co/zTLQYKqs/m14.jpg",
+    "category": "Mains",
+    "inStock": true,
+    "customizable": true,
+    "options": [
+      { "name": "Extra Guacamole", "price": 1.5 },
+      { "name": "Add Sour Cream", "price": 0.75 }
+    ]
+  },
+  {
+    "id": "m15",
+    "restaurantId": "r4",
+    "name": "Burrito Bowl",
+    "price": 11.49,
+    "description": "Rice, black beans, grilled chicken, pico de gallo, cheese, and sour cream.",
+    "image": "https://i.ibb.co/7sSdr2s/m15.jpg",
+    "category": "Mains",
+    "inStock": true,
+    "customizable": true,
+    "options": [
+      { "name": "Extra Protein", "price": 2.0 },
+      { "name": "Add Guacamole", "price": 1.5 }
+    ]
+  },
+  {
+    "id": "m16",
+    "restaurantId": "r4",
+    "name": "Chips & Salsa",
+    "price": 3.49,
+    "description": "House-made tortilla chips with fresh tomato salsa.",
+    "image": "https://i.ibb.co/sJDpbfTc/m16.jpg",
+    "category": "Sides",
+    "inStock": true,
+    "customizable": false,
+    "options": []
+  },
+  {
+    "id": "m17",
+    "restaurantId": "r4",
+    "name": "Horchata",
+    "price": 3.99,
+    "description": "Chilled rice milk with cinnamon and vanilla.",
+    "image": "https://i.ibb.co/wTtTbMz/m17.jpg",
+    "category": "Drinks",
+    "inStock": true,
+    "customizable": false,
+    "options": []
+  },
+  {
+    "id": "m18",
+    "restaurantId": "r5",
+    "name": "Nutella Crepe",
+    "price": 8.49,
+    "description": "Thin crepe filled with Nutella, sliced bananas, and whipped cream.",
+    "image": "https://i.ibb.co/cS5JRpM3/m18.jpg",
+    "category": "Desserts",
+    "inStock": true,
+    "customizable": true,
+    "options": [
+      { "name": "Add Strawberries", "price": 1.0 },
+      { "name": "Extra Nutella", "price": 0.75 }
+    ]
+  },
+  {
+    "id": "m19",
+    "restaurantId": "r5",
+    "name": "Waffle Stack",
+    "price": 9.99,
+    "description": "Fluffy Belgian waffles with maple syrup, butter, and powdered sugar.",
+    "image": "https://i.ibb.co/9fR5C3Y/m19.jpg",
+    "category": "Mains",
+    "inStock": true,
+    "customizable": true,
+    "options": [
+      { "name": "Add Ice Cream", "price": 2.0 },
+      { "name": "Add Fresh Berries", "price": 1.5 }
+    ]
+  },
+  {
+    "id": "m20",
+    "restaurantId": "r5",
+    "name": "Bubble Tea",
+    "price": 5.99,
+    "description": "Classic milk tea with tapioca pearls. Choose your sweetness level.",
+    "image": "https://i.ibb.co/7x46cNXf/m20.jpg",
+    "category": "Drinks",
+    "inStock": true,
+    "customizable": true,
+    "options": [
+      { "name": "50% Sweet", "price": 0 },
+      { "name": "100% Sweet", "price": 0 },
+      { "name": "Add Pudding", "price": 0.75 }
+    ]
+  },
+  {
+    "id": "m21",
+    "restaurantId": "r6",
+    "name": "Kung Pao Chicken",
+    "price": 13.99,
+    "description": "Stir-fried chicken with peanuts, chili peppers, and a savory-spicy sauce.",
+    "image": "https://i.ibb.co/0jR4372W/m21.jpg",
+    "category": "Mains",
+    "inStock": true,
+    "customizable": true,
+    "options": [
+      { "name": "Extra Spicy", "price": 0.5 },
+      { "name": "Add Steamed Rice", "price": 1.5 }
+    ]
+  },
+  {
+    "id": "m22",
+    "restaurantId": "r6",
+    "name": "Beef Pho",
+    "price": 12.99,
+    "description": "Slow-simmered beef broth with rice noodles, sliced beef, fresh herbs, and bean sprouts.",
+    "image": "https://i.ibb.co/d4D1fJ04/m22.jpg",
+    "category": "Mains",
+    "inStock": true,
+    "customizable": true,
+    "options": [
+      { "name": "Large Size", "price": 2.0 },
+      { "name": "Extra Beef", "price": 2.5 }
+    ]
+  },
+  {
+    "id": "m23",
+    "restaurantId": "r7",
+    "name": "Quinoa Power Bowl",
+    "price": 13.49,
+    "description": "Quinoa, roasted sweet potato, kale, chickpeas, and lemon tahini dressing.",
+    "image": "https://i.ibb.co/jvtpTDy0/m23.jpg",
+    "category": "Mains",
+    "inStock": true,
+    "customizable": true,
+    "options": [
+      { "name": "Add Grilled Chicken", "price": 3.0 },
+      { "name": "Add Avocado", "price": 1.5 }
+    ]
+  },
+  {
+    "id": "m24",
+    "restaurantId": "r7",
+    "name": "Acai Smoothie Bowl",
+    "price": 10.99,
+    "description": "Blended acai with banana, topped with granola, fresh berries, and honey.",
+    "image": "https://i.ibb.co/bj22cYg7/m24.jpg",
+    "category": "Mains",
+    "inStock": true,
+    "customizable": true,
+    "options": [
+      { "name": "Add Chia Seeds", "price": 0.75 },
+      { "name": "Add Protein Powder", "price": 1.5 }
+    ]
+  }
+]

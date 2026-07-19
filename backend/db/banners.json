@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "image": "https://i.ibb.co/23cQTnSQ/b1.jpg",
+    "title": "Free Delivery This Weekend",
+    "link": "/restaurant/r1"
+  },
+  {
+    "id": "2",
+    "image": "https://i.ibb.co/svrW5nD9/b2.jpg",
+    "title": "Top Burgers Near You",
+    "link": "/restaurant/r2"
+  },
+  {
+    "id": "3",
+    "image": "https://i.ibb.co/whYhkXLr/b3.jpg",
+    "title": "Fresh Sushi Daily",
+    "link": "/restaurant/r3"
+  },
+  {
+    "id": "4",
+    "image": "https://i.ibb.co/2VFZHYD/b4.jpg",
+    "title": "Taco Tuesday Deals",
+    "link": "/restaurant/r4"
+  }
+]
