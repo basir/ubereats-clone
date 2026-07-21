@@ -19,7 +19,7 @@ The mobile application is a high-performance, cross-platform app built with Reac
     - **Reviews**: User-generated ratings and reviews.
 
 - Tech Stack
-    - **Framework**: React Native (Expo SDK 54)
+    - **Framework**: React Native (Expo SDK)
     - **Navigation**: Expo Router (File-based routing)
     - **UI Library**: Gluestack UI (for accessible, styled components)
     - **Styling**: NativeWind (Tailwind CSS for React Native)
@@ -52,8 +52,8 @@ A modern web-based administration dashboard to manage the platform.
     - **Order Management**: View and update order statuses.
 
 - Tech Stack
-    - **Framework**: Next.js 16 (React 19)
-    - **Styling**: Tailwind CSS v4
+    - **Framework**: Next.js
+    - **Styling**: Tailwind CSS
     - **Language**: TypeScript
 
 ## How to Deploy
@@ -99,144 +99,76 @@ Fork [https://github.com/basir/ubereats-clone](https://github.com/basir/ubereats
     npm run seed
     ```
 
+### Admin Panel
+
+1. Open https://console.firebase.google.com and create web app.
+2. Duplicate admin/.env.example and update as admin/.env.local and update values. 
+3. Open cloud.google.com and enable Map Api and Direction Api on this key.
+4. Open [Vercel](https://vercel.com) and create vercel account
+5. Click add project and select the forked repo
+6. Enter this settings:
+    - root directory: admin
+    - framework: Next.js
+7. Copy Environment Variables based on admin/.env.local
+8. Click deploy
+9. Open https://your-admin-panel.vercel.app
+
+
 ### Mobile App
 
 In this section, we will generate mobile app for web, android and ios. 
-1. Duplicate `mobile/.env.example` to `mobile/.env.local` 
-2. On https://console.firebase.google.com create 3 apps:
+1. Duplicate `mobile/.env.example` as `mobile/.env.local` 
+2. On https://console.firebase.google.com create ios and android apps:
     - Web App: download the config file and update `mobile/.env.local`:
     ```
-    EXPO_PUBLIC_FIREBASE_API_KEY_WEB=
-    EXPO_PUBLIC_FIREBASE_APP_ID_WEB=
     EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN=
     EXPO_PUBLIC_FIREBASE_PROJECT_ID=
     EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET=
     EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
-    ```
-    - Android App: download the config file and update `mobile/.env.local`:
-    ```
+
     EXPO_PUBLIC_FIREBASE_API_KEY_ANDROID=
     EXPO_PUBLIC_FIREBASE_APP_ID_ANDROID=
-    ```
-    - iOS App: download the config file and update `mobile/.env.local`:
-    ```
+
     EXPO_PUBLIC_FIREBASE_API_KEY_IOS=
     EXPO_PUBLIC_FIREBASE_APP_ID_IOS=
     ```
-
-3. Get stripe publishable key from stripe dashboard and update `mobile/.env.local`
+3. Open cloud.google.com and enable Map Api and Direction Api on both apps keys.
+4. Get stripe publishable key from stripe dashboard and update `mobile/.env.local`
     ```
     EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY=
     ```
 
-#### Web App
-
-1. Install dependencies
-    ```bash
-    cd mobile
-    npm install
-    ```
-2. Run web app locally
-    ```bash
-    npm run web
-    ```
-
-##### Publish Web App to Expo
-1. Export web app
-    ```bash
-    npx expo export --platform web
-    ```
-2. Create expo account at [expo.dev](https://expo.dev)
-3. Create project on expo.dev and copy project id.
-4. Install Expo CLI
-    ```bash
-    npm install -g expo-cli
-    ```
-5. Open terminal and login to expo
-    ```bash
-        eas login      
-        # enter your email and password
-        # Logged in
-    ```
-6. Connect project to expo
-
-    ```bash
-        eas init --id project-id 
-    ```
-7. Deploy web app
-    ```bash
-        eas deploy 
-    ```
-8. open https://your-app-name.expo.app
-
-
 #### Android App
 
 For this section, you need to have an Android device.
-1. Install "Expo Go" app on your Android device. Download from [Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent).
-2. Connect Your Computer + Android device to the same Wi-Fi.
-3. In your project:
+1. Connect Your Android device to Computer via USB cable and enable debugging
+3. Install Android Studio
+4. In your project (mobile folder):
     ```bash
-    npx expo start --lan
+    npx expo run:android
     ```
-4. Scan the QR code with your Android device → it opens in Expo Go.
 
 ##### Publish Android App to Google Play
 1. Generate `.aab` file
-    - Configure eas
-    ```bash
-        eas build:configure
-        # enter all to configure for ios and android
-    ```
-    - Build android app
     ```bash 
-        eas build -p android --profile production
+        npx expo prebuild -p android
+        cd android
+        ./gradlew bundleRelease
         
     ```
-    - Go to [expo.dev](https://expo.dev) and download the generated .aab file
+    - Output at android/app/build/outputs/bundle/release/app-release.aab
 
-2. Submit `.aab` to Google Play:
-   1. Create a Google Play Developer account at [Google Play Console](https://play.google.com/console)
-    - Pay $25 one-time fee.
-    - Verify your account.
-   2. Create a new app
-    - Click “Create App” → fill app name, language, type, content rating.
-   3. Prepare store listing
-    - Add description, screenshots, icons, feature graphic.
-    - Fill privacy policy and contact info.
-   4. Upload your .aab
-    - Go to Release → Production → Create new release.
-    - Upload the .aab file.
-    - Fill release notes.
-   5. Set content & pricing
-    - Content rating questionnaire.
-    - Pricing and distribution.
-   6. Review & submit
-    - Check for warnings/errors.
-    - Click “Review and publish”.
-    - Google will review your app (can take hours to a few days). After approval, it will be live.
-
+2. Submit `.aab` to [Google Play Console](https://play.google.com/console):
+  
 #### iOS App
 For this section, you need to have a Mac computer and an iPhone.
-1. Install "Expo Go" app on your iPhone. Download from [App Store](https://apps.apple.com/us/app/expo-go/id982107779).
-2. Connect Mac + iPhone to the same Wi-Fi.
-3. In your project:
+1. Connect Your iOS device to Computer via USB cable:
+3. Install Xcode
+4. In your project (mobile folder):
     ```bash
-    npx expo start --lan
+    npx expo run:ios
     ```
-4. Scan the QR code with your iPhone → it opens in Expo Go.
 
-### Admin Panel
-
-1. Go to the [Vercel](https://vercel.com)
-2. Click add project and select the forked repo
-3. Enter this settings:
-    - root directory: admin
-    - framework: Next.js
-4. Enter Environment Variables based on `/admin/.env.example`
-5. Click deploy
-6. Wait for the deployment to finish
-7. Open the deployed admin panel
 
 ## How to Develop
 
@@ -257,7 +189,6 @@ For this section, you need to have a Mac computer and an iPhone.
     ```bash
     npm start
     ```
-    Scan the QR code with Expo Go (Android) or Camera (iOS).
 
 ### Backend
 1.  Navigate to the backend folder:

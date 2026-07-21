@@ -230,7 +230,7 @@ Customer app, driver PWA, admin panel — all yours. Deploy it, customize it, mo
 ## Final Promo
 
 
-"I built the next UberEats — a full customer app with native feel, real animations, and it's fully functional. 
+I built the next UberEats — a full customer app with native feel, real animations, and it's fully functional. 
 
 Watch this: add to cart, and that fly animation is fully custom.
 
@@ -242,15 +242,99 @@ Watch this: add to cart, and that fly animation is fully custom.
  
  And behind all of it is the command center, where every order and every driver show up live on one map. 
  
- This isn't a demo — it's production-ready, Firebase-powered, and you can deploy it in a weekend."
+ This isn't a demo — it's production-ready, Firebase-powered, and you can deploy it in a weekend.
 
- ✅ Fully functional
-🔥 Firebase Backend
-🗺️ Google Map API
-🧭 Direction API
-📱 Driver PWA
-📲 Customer Native App
-🖥️ Live Admin Dashboard
-🚀 Ready to Deploy
+Features:
+    ✅ Fully functional
+    🔥 Firebase Backend
+    🗺️ Google Map API
+    🧭 Direction API
+    💳 Stripe Payment
+    📱 Driver PWA
+    📲 Customer Native App
+    🖥️ Live Admin Dashboard
+    🚀 Ready to Deploy
 
-💳 Stripe Payment
+---
+
+## 🎥 Demo Walkthrough — Live 3-Window Setup
+
+You have 3 windows open: 
+**Customer Mobile App** (iPhone Mirroring / portrait), 
+**Driver PWA** (Chrome, 390px wide), 
+**Admin Dashboard** (Chrome, fullscreen desktop).
+
+0 — Intro to Walkthrough
+
+* [Face to camera] "Alright, that was the quick tour — now let's slow down and actually walk through it, step by step."
+
+STEP 1 — Open with the Customer App (0–15s)
+Window: Customer Mobile App
+
+* [Open app, choose location] "Open the app and choose your location. It lists all the restaurants around you."
+* [Tap map toggle] "Let's switch to map view — now you see every restaurant, live, on the map."
+* [Tap a restaurant pin] "Tap a restaurant, and the card slides up — rating, delivery time, everything you need."
+* [Open restaurant menu] "Let's open it. See how each item loads in, one after another? Small detail, but it makes the app feel polished."
+
+STEP 2 — Add to Cart & Checkout (15–35s)
+Window: Customer Mobile App
+
+* [Tap + on an item] "Now watch this — I tap add, and the item flies into the basket. This animation is fully custom, I built it myself."
+* [Tap View Basket] "Everything is clear here — delivery fee, tip, total. Nothing hidden."
+* [Tap Checkout] "Let's place a real order."
+
+STEP 3 — Place a Real Order (35–50s)
+Window: Customer Mobile App
+
+* [Show delivery address] "Here's the delivery address, on the map."
+* [Tap Place Order] "This is a real Stripe payment, not fake data. If you want to test it, use this card number: 4242 4242 4242 4242."
+* [Wait for confirmation] "Order placed. Now let's follow what happens next."
+
+STEP 4 — Admin Marks Order Ready (50–65s)
+Window: Admin Dashboard (Desktop)
+
+* [Open Orders in admin panel] "Let's open the admin panel. And here is the order — it showed up the moment it was placed."
+* [Open the order, change status] "The kitchen finished preparing it, so I mark it as ready for delivery."
+* [Confirm status change] "One click, and now drivers can see it. No refresh needed."
+
+STEP 5 — Driver Accepts the Order (65–85s)
+Window: Driver PWA (Chrome 390px)
+
+* [Show stats row] "Now let's check the driver app. Deliveries, earnings, rating — all at the top."
+* [Scroll to Available orders] "And there's the order we just marked ready. It's already here, waiting."
+* [Tap Accept] "The driver taps accept."
+* [Watch status flip] "As soon as they accept, the customer's app already knows. Everything updates instantly."
+
+STEP 6 — Back to the Customer App — Live Tracking (85–105s)
+Window: Customer Mobile App
+
+* [Show glowing order card] "Let's go back to the customer app. The order card already updated by itself — green means it's out for delivery."
+* [Tap View on Map] "Tap it, and you see live tracking — real roads, real route."
+* [Point to motorcycle icon] "This motorcycle icon is really moving, live, as the driver updates their location. Nothing here is fake."
+
+STEP 7 — Admin Dashboard — The Command Center (105–130s)
+Window: Admin Dashboard (Desktop, fullscreen)
+
+* [Pull up full map] "Now let's look at my favorite part — let's zoom out on the admin map."
+* [Gesture to glowing arcs] "Each line here is a live order moving across the city. When the order is done, the line fades away."
+* [Point to pulse rings] "These glowing circles around restaurants — that's live activity, happening right now."
+* [Show HUD] "Up here, you see total orders, orders per minute, active restaurants. This is the heartbeat of the whole platform."
+* [Let a toast notification appear] "And these small messages sliding in? Those are new orders, appearing live."
+* [Click into Orders/Restaurants] "It's not just a map. You also get a full back office — restaurants, drivers, orders, all in one place."
+
+STEP 8 — Close Strong (130s+)
+Any window — or face to camera
+
+* [Recap on camera] "So let's recap what just happened. A customer placed a real order. The restaurant marked it ready. A driver picked it up right away. And we could track everything live, from the customer's phone to the admin panel."
+* [Hold on admin map, look at camera] "This is not a demo. It's production-ready — built with Firebase, Stripe, Google Maps, and React Native. And you can deploy your own version this weekend."
+
+---
+
+### Talking Points to Weave In Naturally
+
+- **Revenue model:** "Three revenue surfaces — customer commissions, delivery fees, merchant subscriptions."
+- **No DevOps:** "Firebase scales automatically. No servers to manage."
+- **Cross-platform:** "One React Native codebase — iOS, Android, and Web."
+- **Driver PWA:** "Drivers don't install anything. They open a browser link and they're live."
+- **Stripe:** "PCI-compliant payments, tips, international currencies — all built in."
+- **Deploy speed:** "Firebase + Vercel + Expo — production stack, no servers, deployable in a weekend."
