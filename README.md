@@ -219,5 +219,3 @@ For this section, you need to have a Mac computer and an iPhone.
     ```
     Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-
-npx expo prebuild --clean
