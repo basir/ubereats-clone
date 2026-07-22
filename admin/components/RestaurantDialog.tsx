@@ -15,6 +15,7 @@ const EMPTY: Omit<Restaurant, "id"> = {
     name: "",
     image: "",
     cuisineType: "",
+    cuisineImage:"",
     address: "",
     latitude: 0,
     longitude: 0,
